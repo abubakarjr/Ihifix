@@ -1,0 +1,12 @@
+* {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  color: blue;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="/Ihifix/Class/JavaScript/form.css">
+</head>
+<body>
+<h1>Registration Form</h1>
+<form onsubmit="return validateForm()" class="form">
+  <div>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" placeholder="Enter your name"/>
+    <span id="fullnameError" class="error"></span>
+  </div>
+  <div>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter your email"/>
+    <span id="emailError" class="error"></span>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your password"/>
+    <span id="passwordError" class="error"></span>
+  </div>
+  <div>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" />
+    <span id="confirmPasswordError" class="error"></span>
+  </div>
+  <input type="submit" value="Submit" />
+</form>
+</body>
+<script src="/Ihifix/Class/JavaScript/form.js"></script>
+</html>
